@@ -1,10 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2979ff;
+    --primary: #3535b2;
     --secondary: #FFF0E6;
     --light: #F8F8F9;
-    --dark: #001D23;;
+    --dark: #032830;
      /* #001D23; */
+     /* 3535b2 */
 }
 
 .back-to-top {
@@ -32,6 +33,15 @@
 
 
 /*** Button ***/
+.btn-read{
+     font-weight: 500;
+    transition: .5s;
+ color: #FFFFFF;
+ background: var(--primary);
+ border-radius: 5px;
+ border: none;
+} 
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -147,7 +157,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 29, 35, .8);
+    background: rgba(33, 36, 37, 0.8);
     z-index: 1;
 }
 .carousel-Gallery {
@@ -626,7 +636,7 @@
 }
 
 .e-n-accordion-item {
-  border: 1px solid #2979ff;
+  border: 1px solid #3535b2;
   border-radius: 8px;
   margin-bottom: 10px;
   background-color: white;
@@ -684,14 +694,14 @@ details:not([open]) .e-closed {
   justify-content: center;
   margin-top: 1rem;
 }
-/* #2979ff */
+/* #3535b2 */
 .custom-amount-wrapper {
   display: flex;
   align-items: center;
-  background-color: #2979ff; 
+  background-color: #3535b2; 
   color: #fff;
   font-size: 22px;
-  border: 2px solid #2979ff;
+  border: 2px solid #3535b2;
   border-radius: 6px;
   padding: 0.5rem 1rem;
 }
@@ -733,7 +743,7 @@ details:not([open]) .e-closed {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  background: rgba(0, 0, 0, 0.6); 
   color: white;
   display: flex;
   flex-direction: column;
